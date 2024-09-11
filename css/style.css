@@ -1,0 +1,49 @@
+body{
+    margin: 20px;
+}
+
+#title{
+    color: #800d00;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#description{
+    color: #800d00;
+    font-size: 40px;
+    text-align: center;
+}
+
+#listTitle{
+    color: rgb(38, 31, 112);
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-left: 40px;
+}
+li{
+    color: #2f5c6b;
+    font-weight: bold; 
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+    li::marker{
+        color: #800080;
+        font-weight: bold;
+    }
+
+    /*Pseudo-Element (::)*/
+    .gen4Pokemon::marker{
+        color: #00008b;
+        font-weight: bold;
+    }
+    .gen4Pokemon::before{
+        content: "💙";
+    }
+    .gen4Pokemon::selection{
+        background-color: #000080;
+        color: white;
+    }

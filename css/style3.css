@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+/*============================= Header =============================*/
+
+header{
+    text-align: center;
+    background-color: #3b3b3b;
+    padding: 25px;
+}
+#headerTitle{
+    color: #ffaa50;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+}
+#headerSubtitle{
+    color: #ffff00;
+    font-size: 40px;
+    margin: 0px;
+}
+
+/*============================= Navbar =============================*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #808080;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;  
+}
+
+.navbar li{
+    float: left;
+}
+    .navbar li:hover:not(#navbarHere, #navbarNote){
+        background-color: #626262;
+    }
+    .navbar li:active:not(#navbarHere, #navbarNote){
+        background-color: #404040;
+    }
+
+
+
+#navbarHere{
+    background-color: #202020;
+}
+#navbarNote{
+    margin-left: auto;
+}
+#navbarNote a{
+    color: #ffd0bd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*============================= Main =============================*/
+
+main{
+    
+    padding: 50px;
+}
+
+#section1{
+    float: left;
+    width: 50%;
+}
+#section2{
+    float: left;
+    width: 50%;
+}
+#section3{
+    display: block;
+    clear: both;
+    float: left;
+    width: 50%;
+}
+#section4{
+    float: left;
+    width: 50%;
+}
+
+
+.listTitle{
+    color: #760000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#section1 .orderedList li{
+    color: #00006b;
+    font-size: 25px;
+    font-weight: bold;
+}
+        #section1 .orderedList li::marker{
+            color: #720072;
+            font-weight: bold;
+        }
+
+
+#section2 .orderedList li{
+    color: #00006b;
+    font-size: 25px;
+    font-weight: bold;
+}
+        #section2 .orderedList li::marker{
+            color: #720072;
+            font-weight: bold;
+        }
+
+
+#section3 .orderedList li{
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+    .increment{
+        color: #008000;
+    }
+    .decrement{
+        color: #ff2424;
+    }
+
+        #section3 li::marker{
+            color: #720072;
+            font-weight: bold;
+        }
+
+#section4 .orderedList li{
+    color: #00006b;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+        #section4 li::marker{
+            color: #720072;
+            font-weight: bold;
+        }
+/*============================= Footer =============================*/
+
+footer{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+
+    background-color: #3b3b3b;
+
+    display: block;
+    clear: both;
+}
+
+footer a{
+    color: #87cefa;
+}

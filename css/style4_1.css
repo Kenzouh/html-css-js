@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+
+
+/*============ Header ============*/
+
+header{
+    background-color: #46332d;
+    text-align: center;
+    padding: 10px;
+}
+    #headerTitle{
+        color: #ffaa50;;
+        font-size: 40px;
+        font-weight:  bold;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #ffff00;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+/*============ Navbar ============*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #9a8355;
+    padding: 0px; /*Height*/
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px; /*Width*/
+}
+
+.navbar li{
+    float: left;
+}
+
+    .navbar li:hover:not(#navbarHere, #navbarNote){
+        background-color: #7c6941;
+    }
+    .navbar li:active:not(#navbarHere, #navbarNote){
+        background-color: #645331;
+    }
+
+    #navbarHere{
+        background-color:#4a2b10;
+    }
+        #navbarHere a{
+            color: #ffff00;
+        }
+
+    #navbarNote{
+        margin-left: auto;    
+    }
+
+/*============ Main ============*/
+
+main{
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#welcome{
+    font-size: 50px;
+    text-align: center;
+}
+#note{
+    font-size: 35px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    margin-left: 270px;
+}
+
+
+
+
+/*============ Footer ============*/
+
+
+footer{
+    background-color: #46332d;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a{
+    color: #87cefa;
+}    

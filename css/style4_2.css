@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+
+
+/*========== Header ==========*/
+
+header{
+    background-color: #46332d;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+    #headerTitle{
+        color: #ffaa50;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #ffff00;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+/*========== Navbar ==========*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #9a8355;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+.navbar li{
+    float: left;
+}
+
+    .navbar li:hover:not(#navbarNote, #navbarHere){
+        background-color: #7c6941;
+    }
+    .navbar li:active:not(#navbarNote, #navbarHere){
+        background-color: #645331;
+    }
+
+
+
+    #navbarNote{
+        margin-left: auto;
+    }
+
+    #navbarHere{
+        background-color: #4a2b10;
+    }
+        #navbarHere a{
+            color: #ffff00;
+        }
+
+/*========== Main ==========*/
+
+main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+    #mainNote{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+#labelColor{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+    #textBoxColor{
+        font-size: 25px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+#labelAnimal{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+    #textBoxAnimal{
+        font-size: 25px;
+        margin-left: 2px;
+    }
+
+#submitButton{
+    background-color: #b1ffaa;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 12px;
+    margin-left: 230px;
+
+    border: 2px solid #000000;
+    border-radius: 5px;
+}   
+
+    #submitButton:hover{
+        background-color: #76cb6e;
+    }
+    #submitButton:active{
+        background-color: #619b5c;
+    }
+
+#answer1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#answer2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#consoleNote{
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*========== Footer ==========*/
+
+footer{
+    background-color: #46332d;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+    footer a{
+        color: #92d5ff;
+    }

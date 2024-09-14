@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+}
+
+
+/*==== Header ====*/
+
+header{
+    background-color: #c0ffef;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 25px;
+    margin: 0px;
+}
+    #headerTitle{
+        color: #452020;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #531f6d;    
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+
+/*==== Navbar ====*/
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #6153b8;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+
+
+.navbar li{
+    float: left;
+}
+
+    #navbarHere{
+        background-color: #2a254e;
+    }
+        #navbarHere a{
+            color: #ffff00;
+            
+            font-weight: bold;
+        }
+
+    #navbarNote{
+        margin-left: auto;
+    }
+        #navbarNote a{
+            color: #ffc0c0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+
+    .navbar li:hover:not(#navbarHere, #navbarNote){
+        background-color: #564aa2;
+    }
+    .navbar li:active:not(#navbarHere, #navbarNote){
+        background-color: #4c428f;
+    }
+
+
+
+
+/*==== Main ====*/
+
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section{
+    float: left;
+}
+
+
+#listTitle{
+    color: #800080;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: 0px;
+}
+
+    .listSubtitle{
+        color: #ff0000;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+        .listSubtitle::marker{
+            color: #800080;
+            font-size: 25px;
+        }
+
+
+            .listDefinition{
+                color: #00008a;
+                font-size: 25px;
+            }
+
+                .listDefinition::marker{
+                    color: #800080;
+                }
+        
+
+
+#mainNote{
+    background-color: #fffbc5;
+    font-size: 30px;
+    text-align: center;
+
+    margin-left: 650px;
+    margin-top: 40px;
+    width: 450px;
+    padding: 40px;
+    border: 2px solid #000000;
+}
+
+/*==== Footer ====*/
+
+
+footer{
+    background-color: #c0ffef;
+    font-size: 20px;
+    text-align: center;
+
+    padding: 20px;
+    clear: both;
+}

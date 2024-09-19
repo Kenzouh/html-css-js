@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>JS Random Number Generator (RNG)</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="generating a random number">
+    <meta name="keywords" content="HTML, CSS, JS, RNG">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style9.css">
+</head>
+<body>
+    <header>
+        <p id="headerTitle">JavaScript Practice #9</p>
+        <p id="headerSubtitle">(Random Number Generator)</p>
+    </header>
+
+    <nav class="navbar">
+        <ul id="navbarLeftSide">
+            <li id="navbarHere"><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Products</a></li>
+        </ul>
+
+        <ul id="navbarRightSide">
+            <li><a href="">Search</a></li>
+            <li id="navbarNote"><a href="">This doesn't function. Just here for memory retention.</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <aside id="asideLeft1">
+
+            <p class="asideTitle">Roll 1 Die (1–6)</p>
+        
+            <button id="rollButton1" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer1" class="labelContainer">
+                    <label id="asideLeft1_OutputLabel1" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+        
+    
+        <aside id="asideRight1">
+
+            <p class="asideTitle">Roll 2 Dice (1–6)</p>
+
+            <button id="rollButton2" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer2" class="labelContainer">
+                    <label id="asideRight1_OutputLabel1" class="outputLabel"></label>
+                    <label id="asideRight1_OutputLabel2" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+
+
+        <hr>
+        
+
+
+        <aside id="asideLeft2">
+
+            <p class="asideTitle">Roll 3 Dice (1–6)</p>
+
+            <button id="rollButton3" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer3" class="labelContainer">
+                    <label id="asideLeft2_OutputLabel1" class="outputLabel"></label>
+                    <label id="asideLeft2_OutputLabel2" class="outputLabel"></label>
+                    <label id="asideLeft2_OutputLabel3" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+        <aside id="asideRight2">
+
+            <p class="asideTitle">Roll 4 Dice (1–6)</p>
+
+            <button id="rollButton4" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer4" class="labelContainer">
+                    <label id="asideRight2_OutputLabel1" class="outputLabel"></label>
+                    <label id="asideRight2_OutputLabel2" class="outputLabel"></label>
+                    <label id="asideRight2_OutputLabel3" class="outputLabel"></label>
+                    <label id="asideRight2_OutputLabel4" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+
+        
+        <hr>
+
+
+
+        <aside id="asideLeft3">
+            
+            <p class="asideTitle">Roll 5 Dice (1–6)</p>
+
+            <button id="rollButton5" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer5" class="labelContainer">
+                    <label id="asideLeft3_OutputLabel1" class="outputLabel"></label>
+                    <label id="asideLeft3_OutputLabel2" class="outputLabel"></label>
+                    <label id="asideLeft3_OutputLabel3" class="outputLabel"></label>
+                    <label id="asideLeft3_OutputLabel4" class="outputLabel"></label>
+                    <label id="asideLeft3_OutputLabel5" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+        
+        <aside id="asideRight3">
+
+            <p class="asideTitle">Roll 6 Dice (1–6)</p>
+
+            <button id="rollButton6" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer6" class="labelContainer">
+                    <label id="asideRight3_OutputLabel1" class="outputLabel"></label>
+                    <label id="asideRight3_OutputLabel2" class="outputLabel"></label>
+                    <label id="asideRight3_OutputLabel3" class="outputLabel"></label>
+                    <label id="asideRight3_OutputLabel4" class="outputLabel"></label>
+                    <label id="asideRight3_OutputLabel5" class="outputLabel"></label>
+                    <label id="asideRight3_OutputLabel6" class="outputLabel"></label>
+                </div>
+        </aside>
+
+        <hr>
+
+        <aside id="asideRandom1">
+            
+            <p class="asideTitle">Math.random()</p>
+
+            <button id="rollButton7" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer7" class="labelContainer">
+                    <label id="asideRandom1_OutputLabel" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+
+        
+        <aside id="asideRandom2">
+
+            <p class="asideTitle">Roll 1 Die (0–5)</p>
+
+            <button id="rollButton8" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer8" class="labelContainer">
+                    <label id="asideRandom2_OutputLabel" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+
+        <hr>
+
+
+        <aside id="asideRandom3">
+
+            <p class="asideTitle">Roll 1 Die (0–100)</p>
+
+            <button id="rollButton9" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer9" class="labelContainer">
+                    <label id="asideRandom3_OutputLabel" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+
+        <aside id="asideRandom4">
+
+            <p class="asideTitle">Roll 1 Die (50–100)</p>
+
+            <button id="rollButton10" class="rollButton">Roll</button><br>
+
+                <div id="labelContainer10" class="labelContainer">
+                    <label id="asideRandom4_OutputLabel" class="outputLabel"></label>
+                </div><br>
+        </aside>
+
+    </main>
+
+
+    <footer>
+        Author: Kenzo<br>
+        &copy: Copyright Reserve<br>
+        <a href="notsorealfakegmail@gmail.com">notsorealfakegmail@gmail.com</a>
+    </footer>
+
+    <script src="/js/index9_RNG.js"></script>
+</body>
+</html>

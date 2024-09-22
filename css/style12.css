@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+
+/*======== Header ========*/
+
+header{
+    background-color: #784c3b;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 20px;
+}
+
+    #headerTitle{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+/*======== Navbar ========*/
+
+.navbar{
+    background-color: #3d2d27;
+    /*border: 2px solid #000000;*/
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+    .navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar a{
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        padding: 25px;
+    }
+
+    .navbar li{
+        display: inline-block;
+    }
+
+        .navbar li:hover:not(#navbarHere, #navbarNote){
+            background-color: #47342d;
+        }
+        .navbar li:active:not(#navbarHere, #navbarNote){
+            background-color: #563f37;
+        }
+
+    
+    #navbarHere{
+        background-color: #6f5147;
+    }
+
+/*======== Main ========*/
+
+main p{
+    font-size: 40px;
+    text-align: center;
+}
+    #mainTitle{
+        color: #800080;
+        font-weight: bold;
+    }
+
+    #mainContent{
+        background-color:   #dbffdb;
+        width: 800px;
+
+        padding: 10px;
+        
+        border: 3px solid #000000;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+#red{
+    color: #ff0000;
+}
+#green{
+    color: #008000;
+}
+#purple{
+    color: #800080;
+}
+
+/*======== Footer ========*/
+
+footer{
+    background-color: #784c3b;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+    padding: 25px;
+}
+
+    footer a{
+        color: #a7ddff;
+    }

@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+
+/*======== Header ========*/
+
+header{
+    background-color: #ffcaf1;
+
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+}
+    #headerTitle{
+        color: #5e3535;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #a52a2a;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+/*======== Navbar ========*/
+
+.navbar{
+    background-color: #cb88b9;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+    .navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar a{
+        color: #000000;
+        font-size: 25px;
+        text-decoration: none;
+        display: block;
+        padding: 25px;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    
+        .navbar li:hover:not(#navbarHere, #navbarNote){
+            background-color: #824f75;
+        }
+        .navbar li:active:not(#navbarHere, #navbarNote){
+            background-color: #6d4262;
+        }
+
+    #navbarHere{
+        background-color: #4c2e44;
+    }
+        #navbarHere a{
+            color: #ffff00;
+        }
+
+
+/*======== Main ========*/
+
+main{
+    text-align: center;
+
+}
+#asideLeft{
+    float: left;
+    width: 50%;
+}
+
+    .title{
+        color: #800080;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .textBox{
+        background-color: #d0edff;
+        font-size: 30px;
+        
+        border-radius: 5px;
+    }
+    .submitBtn{
+        background-color: #cfffdb;
+        font-size: 30px;
+
+        border: 2px solid #000000;
+        border-radius: 5px;
+        
+        padding: 10px 20px;
+
+        transition: background-color 0.2s;
+    }
+        .submitBtn:hover{
+            background-color: #aadbb6;
+
+            
+        }
+        .submitBtn:active{
+            background-color: #85b691;
+            
+            transition: background-color 0s;
+        }
+
+    .result{
+        color: #006400;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+#asideRight{
+    float: right;
+    width: 50%;
+}
+
+/*======== Footer ========*/
+
+footer{
+    background-color: #ffcaf1;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+    clear: both;
+}

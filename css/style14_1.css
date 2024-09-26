@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+
+/*======== Header ========*/
+
+header{
+    background-color: #ffe3e7;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 20px;
+}
+
+    #headerTitle{
+        color: #480648;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #7c147c;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+/*======== Navbar ========*/
+
+.navbar{
+    background-color: #eabbc2;
+    border: 2px solid #000000;
+    overflow: hidden;
+}
+
+    .navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar a{
+        color: #000000;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        padding: 25px;
+    }
+    
+    .navbar li{
+        display: inline-block;
+    }
+
+        .navbar li:hover:not(#navbarHere){
+            background-color: #daacb3;
+        }
+        .navbar li:active:not(#navbarHere){
+            background-color: #cc9fa5;
+        }
+
+    #navbarHere{
+        background-color: #a37d82;
+    }
+
+/*======== Main ========*/
+
+#mainTitle{
+    color: #410061;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main ul{
+    margin-left: 30px;
+}
+
+.stringMethodsList li{
+    font-size: 30px;
+}
+
+    .stringMethodsList li::marker{
+        color: #800080;
+        font-size: 30px;
+    }
+        .listTitle{
+            color: #8b0000;
+            font-weight: bold;
+        }
+        .listTitle2{
+            color: #a46a74;
+            font-weight: bold;
+        }
+
+        .equalSign{
+            color: #800080;
+            font-weight: bold;
+        }
+
+/*======== Footer ========*/
+
+footer{
+    background-color: #ffe3e7;
+    font-size: 20px;
+    text-align: center;
+
+    padding: 20px;
+}

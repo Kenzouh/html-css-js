@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+/*======== Header ========*/
+
+header{
+    background-color: #ffe3e7;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+    #headerTitle{
+        color: #480648;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #7c147c;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+/*======== Navbar ========*/
+
+.navbar{
+    background-color: #eabbc2;
+    border: 2px solid #000000;
+    overflow: hidden;
+}
+
+    .navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar a{
+        color: #000000;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        padding: 25px;
+    }
+
+    .navbar li{
+        display: inline-block;
+    }
+
+        .navbar li:hover{
+            background-color: #daacb3;
+        }
+        .navbar li:active{
+            background-color: #cc9fa5;
+        }
+
+    #navbarHere{
+        background-color: #a37d82;
+    }
+    
+/*======== Main ========*/
+
+.container{
+    display: flex;
+    
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.container2{
+    display: flex;
+    
+    justify-content: center;
+    column-gap: 120px;
+}
+/*==== Aside ====*/
+
+aside{
+    text-align: center;
+    padding: 20px;
+}
+    .asideTitle{
+        color: purple;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .textBox{
+        background-color: #d7f0ff;
+        font-size: 25px;        
+    }
+
+
+    /*==== Buttons ====*/
+
+    .button{
+        font-size: 30px;    
+
+        padding: 20px 30px;
+        border-radius: 5px;
+
+        transition: background-color 0.2s;
+    }
+
+    .submitBtn{
+        background-color: #bdffbd;
+    }
+        .submitBtn:hover{
+            background-color: #a2dfa2;
+        }
+        .submitBtn:active{
+            background-color: #8dc78d;
+            transition: background-color 0s;
+        }
+
+    #upperCaseBtn{
+        background-color: #ffffc0;
+        transition: background-color 0.2s;
+    }
+        #upperCaseBtn:hover{
+            background-color: #dcdca7;
+        }
+        #upperCaseBtn:active{
+            background-color: #a1a173;
+            transition: background-color 0s;
+        }
+
+    #lowerCaseBtn{
+        background-color: #caebff;
+        transition: background-color 0.2s;
+    }
+        #lowerCaseBtn:hover{
+            background-color: #aacce1;
+        }
+        #lowerCaseBtn:active{
+            background-color: #86aac0;
+            transition: background-color 0s;
+        }
+
+    #repeatBtnX2{
+        background-color: #ffde9f;
+        transition: background-color 0.2s;
+    }
+        #repeatBtnX2:hover{
+            background-color: #daba7e;
+        }
+        #repeatBtnX2:active{
+            background-color: #ab8e59;
+            transition: background-color 0s;
+        }
+
+    #padStartBtn{
+        background-color: #ccffcc;
+        transition: background-color 0.2s;
+    }
+        #padStartBtn:hover{
+            background-color: #85bf85;
+        }
+        #padStartBtn:active{
+            background-color: #67a367;
+            transition: background-color 0s;
+        }
+
+    #padEndBtn{
+        background-color: #ffb3b3;    
+        transition: background-color 0.2s;
+    }
+        #padEndBtn:hover{
+            background-color: #d68e8e;
+        }
+        #padEndBtn:active{
+            background-color: #a36060;
+            transition: background-color 0s;
+        }
+
+    #lengthBtn{
+        background-color: #ffcffe;
+        transition: background-color 0.2s;
+    }
+        #lengthBtn:hover{
+            background-color: #e79de6;
+        }
+        #lengthBtn:active{
+            background-color: #c87cc7;
+            transition: background-color 0s;
+        }
+
+    #repeatBtnX1{
+        background-color: #ffde9f;
+        transition: background-color 0.2s;
+    }
+        #repeatBtnX1:hover{
+            background-color: #daba7e;
+        }
+        #repeatBtnX1:active{
+            background-color: #ab8e59;
+            transition: background-color 0s;
+        }
+
+    #replaceBtn{
+        background-color: #faa8d4;
+        transition: background-color 0.2s;
+    }
+        #replaceBtn:hover{
+            background-color: #dc81b2;
+        }
+        #replaceBtn:active{
+            background-color: #b3638d;
+            transition: background-color 0s;
+        }
+    
+    .reply{
+        color: #008000;
+        font-size: 25px;
+    }
+
+    #asideLeft{
+        float: left;
+        width: 50%;
+    }
+    
+    #asideRight{
+        float: right;
+        width: 50%;
+    }
+
+/*======== Footer ========*/
+
+footer{
+    background-color: #ffe3e7;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+    clear: both;
+}

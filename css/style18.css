@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+
+/*======== Header ========*/
+
+header{
+    background-color: #ffd1da;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+    #headerTitle{
+        color: #512e53;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #headerSubtitle{
+        color: #741a74;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+/*======== Navbar ========*/
+
+.navbar{
+    background-color: #ffa1a1;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+    .navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar a{
+        color: #000000;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        padding: 25px;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+        .navbar li:hover:not(#navbarHere, #navbarNote){
+            background-color: #ea9494;
+        }
+        .navbar li:active:not(#navbarHere, #navbarNote){
+            background-color: #d58686;
+        }
+
+    #navbarHere{
+        background-color: #ce7171;
+    }
+    
+/*======== Main ========*/
+
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#listTitle{
+    color: #500000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul{
+    font-size: 25px;
+}
+li::marker, .arrow{
+    color: #800080;
+    font-weight: bold;
+}
+.symbol{
+    color: #fd0000;
+    font-weight: bold;
+}
+
+/*======== Footer ========*/
+
+footer{
+    background-color: #ffd1da;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
